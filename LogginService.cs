@@ -9,7 +9,6 @@ namespace ILoggerTraining
     public class LogginService
     {
         private readonly ILogger _logger;
-
         public LogginService(ILogger logger)
         {
             _logger = logger;

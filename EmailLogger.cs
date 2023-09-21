@@ -9,6 +9,7 @@ namespace ILoggerTraining
     public  class EmailLogger : ILogger
     {
         private readonly string _email;
+       
 
         public EmailLogger(string email)
         {
@@ -16,7 +17,7 @@ namespace ILoggerTraining
         }
         public void LogError(string message)
         {
-            Console.WriteLine($"Error {LogError} sent to {_email}");
+            Console.WriteLine($"Error {message} sent to {_email}");
         }
         public void LogInfo(string logInfo)
         {

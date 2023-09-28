@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
+using System.Configuration;
 
 namespace ILoggerTraining
 {
@@ -9,7 +10,6 @@ namespace ILoggerTraining
     {
         static void Main(string[] args)
         {
-
             //ILogger consoleLogger = new EmailLogger("daria.sokulska@gmail.com");
             //consoleLogger.LogError("Test");
 
@@ -75,6 +75,7 @@ namespace ILoggerTraining
             ILogger logger = null;
             var builder = Host.CreateApplicationBuilder(args);
             builder.Services.AddSingleton<ILoggerFactory, LoggerFactory>();
+            builder.Services.AddSingleton<ISerializer, Serializer>();
             var app = builder.Build();  
             var loggerFactory = app.Services.GetService<ILoggerFactory>();
             var provider = loggerFactory.Create();

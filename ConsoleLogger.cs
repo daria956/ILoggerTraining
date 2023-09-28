@@ -8,7 +8,7 @@ namespace ILoggerTraining
 {
     public class ConsoleLogger : ILogger
     {
-
+        
         public void LogError(string message)
         {
             Console.ForegroundColor = ConsoleColor.Red;

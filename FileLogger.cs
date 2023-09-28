@@ -25,8 +25,6 @@ namespace ILoggerTraining
             using (var streamWriter = new StreamWriter(_path, true))
             {
                 streamWriter.WriteLine($"Informacja {logInfo}");
-                streamWriter.WriteLine("Informacja" + logInfo);
-                streamWriter.WriteLine("Informacja {0}", logInfo);
             }
         }
     }

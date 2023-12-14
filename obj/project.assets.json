@@ -1942,11 +1942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\Source\\Repos\\FlexDevMentoring\\DariaILoggerTraining\\ILoggerTraining.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\DariaSokulska\\DariaILoggerTraining\\ILoggerTraining.csproj",
       "projectName": "ILoggerTraining",
-      "projectPath": "C:\\Users\\Acer\\Source\\Repos\\FlexDevMentoring\\DariaILoggerTraining\\ILoggerTraining.csproj",
+      "projectPath": "C:\\Users\\Acer\\source\\repos\\DariaSokulska\\DariaILoggerTraining\\ILoggerTraining.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\Source\\Repos\\FlexDevMentoring\\DariaILoggerTraining\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\source\\repos\\DariaSokulska\\DariaILoggerTraining\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1fYti6PuQ2Y230yLQkk3xLPZV4SFvV8bBz9lGgjFvXuP+4hhDbDzFFbi82eGRwxOQayRGhtEAIHPpNRbz6jBRg==",
+  "dgSpecHash": "ORF9BO+EdCAHOsjuZowlHgS8yKrk6l2zd0fnuSKjM5svqAquVpk2d+Xr4wyMvT76olRXJS7GyXM9jM5AzgCYIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Source\\Repos\\FlexDevMentoring\\DariaILoggerTraining\\ILoggerTraining.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\source\\repos\\DariaSokulska\\DariaILoggerTraining\\ILoggerTraining.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

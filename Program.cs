@@ -12,7 +12,7 @@ namespace ILoggerTraining
         {
             //ILogger consoleLogger = new EmailLogger("daria.sokulska@gmail.com");
             //consoleLogger.LogError("Test");
-
+            //
             //ConsoleLogger consoleLogger2 = new ConsoleLogger();
             //var logginService = new LogginService(consoleLogger2);
 
